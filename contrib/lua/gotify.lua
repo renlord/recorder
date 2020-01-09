@@ -29,7 +29,7 @@ function gotify.push_message(title, message)
       postfields = '{\
         "title": "'..title..'",\
         "message": "' .. message .. '",\
-        "priority": 0\
+        "priority": 1\
       }';
     }
     c:perform()
